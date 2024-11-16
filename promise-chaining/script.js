@@ -41,7 +41,6 @@ function getDetails(posts)
     })
 }
 
-
 getUser(1).then((user)=>{
     console.log("user:",user);
     return getPosts(user.userId);

@@ -3,12 +3,14 @@ const promise=new Promise((res,rej)=>{
 const name="rahul";
 
 
-if(name==="rahul")
+
+if(name==="rahul")   
 {                               
     res("promise is fulfilled");
 }
-else{     
-    rej("promise failed");  
+else{       
+
+    rej("promise failed");      
 }
 
 })
