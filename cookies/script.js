@@ -10,6 +10,7 @@ document.querySelector(".btn").addEventListener("click",()=>{
     let name=nameEle.value
     let value=valueEle.value
 
+    
     document.cookie=`${name}=${value}`
 
 })
